@@ -1,0 +1,43 @@
+#header_section {
+  background-color: rgb(240,142,142);
+  border-radius: 0;
+  border: 0;
+}
+
+
+.navbar-header h1 { 
+  color: #000000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 25px 0 25px 25px;
+
+}
+
+
+#choices {
+    background-color: rgb(206,236,117);
+}
+
+#choices li{
+	text-align: center;
+	border: 1px solid black;
+}    
+
+#choices li a{
+    color: #000000;
+}  
+
+
+#page_heading {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#long_text {
+    background-color: rgb(237,190,103);
+    height: 1000px;
+    width: 90%;
+    margin: 10px 5% 10px 5%;
+
+}
