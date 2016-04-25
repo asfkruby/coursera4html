@@ -1,28 +1,38 @@
-#header_section {
-  background-color: rgb(240,142,142);
+.navbar {
+  background-color: #f08e8e;
   border-radius: 0;
   border: 0;
 }
 
 
-.navbar-header h1 { 
-  color: #000000;
-  font-size: 1.5em;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin: 25px 0 25px 25px;
-
+.navbar-brand h1 {
+	color: #000;
+	font-size: 1.75em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
 }
 
 
+#bs-example-navbar-collapse-1 {
+	padding: 0;
+}
+
 #choices {
+    margin: 0px 0px;
     background-color: rgb(206,236,117);
+	border: 1px solid black;
 }
 
 #choices li{
 	text-align: center;
-	border: 1px solid black;
+	border-bottom: 1px solid black;
 }    
+
+#choices li:last-of-type {
+	border-bottom: 0;
+}
 
 #choices li a{
     color: #000000;
