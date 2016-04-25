@@ -28,6 +28,7 @@
 #choices li{
 	text-align: center;
 	border-bottom: 1px solid black;
+	margin: 0px 5px;
 }    
 
 #choices li:last-of-type {
