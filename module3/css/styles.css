@@ -1,17 +1,19 @@
+* {
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
 .navbar {
-  background-color: #f08e8e;
+  background-color: #5c5858;
   border-radius: 0;
   border: 0;
 }
 
 
-.navbar-brand h1 {
-	color: #000;
+.navbar-brand {
+	color: #ffffff !important;
 	font-size: 1.75em;
 	font-weight: bold;
-	margin-top: 0;
-	margin-bottom: 0;
-	line-height: .75;
 }
 
 
@@ -21,14 +23,17 @@
 
 #choices {
     margin: 0px 0px;
-    background-color: rgb(206,236,117);
+    background-color: #8b5c5c;
 	border: 1px solid black;
 }
 
 #choices li{
 	text-align: center;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #5c5858;
 	margin: 0px 5px;
+	color: #5c5858;
+	font-size: 1.25em;
+	font-weight: bold;
 }    
 
 #choices li:last-of-type {
@@ -41,14 +46,32 @@
 
 
 #page_heading {
-	font-size: 1.5em;
+	font-size: 2em;
+	font-weight: bold;
+	color: #8b5c5c;
+}
+
+.section {
+	margin: 10px;
+	border: 1px solid #8b5c5c;
+	background-color: #b6b6b4;
+}	
+
+
+h3 {
+	color:  #8b5c5c;
 	font-weight: bold;
 }
 
-#long_text {
-    background-color: rgb(237,190,103);
-    height: 1000px;
-    width: 90%;
-    margin: 10px 5% 10px 5%;
 
+.back_to_top a{
+	margin-top: 50px;
+}
+
+
+.back_to_top a{
+	background-color:  #8b5c5c;
+	color: #b6b6b4;
+	font-weight: bold;
+	padding: 5px;
 }
